@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MSN</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container login-container mt-5" style="display: none;">
+        <img class="login-background" src="images/login-background.png" alt="">
+        <div class="window-name">
+            <img src="images/logo-msn.png" alt="">
+            <p>MSN Messenger</p>
+        </div>
+        <div class="row">
+
+            <div class="col-12 avatar-container">
+                <img src="images/avatat.jpg" alt="">
+            </div>
+
+
+            <div class="input-container col-12 ">
+
+                <div class="label col-12 text-left">
+                    <label class="m-0">Username:</label>
+
+                </div>
+                <div class="input col-12">
+
+                    <input type="text" id="fname">
+                </div>
+
+                <div class="check col-12 d-flex justify-content-center align-middle">
+
+                    <input class="mt-1 mr-2" type="checkbox">
+                    <label class="m-0 p-0">Remember me</label>
+                </div>
+
+                <div class="login-buttom col-12">
+                    <button>Login</button>
+
+                </div>
+
+                <div class="col-12 gif-container">
+                    <img src="images/gif.gif" alt="">
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <div class="container contact-container">
+
+        <div class="row d-flex justify-content-center text-center mt-5">
+
+            <div class=" col-md-6 col-lg-6 col-sm-12 contact">
+                <div class="col-12 d-flex contact-header pepe">
+
+                    <div class=" col-sm-4 col-md-4 col-lg-4 avatar text-left">
+                        <span class="helper"></span><img src="images/avatat.jpg" />
+                    </div>
+
+                    <div class="col-sm-6 col-md-6 col-lg-6 user-data text-left ">
+                        <span><strong>Juan</strong><em class="ml-1">(Online)</em></span>
+                    </div>
+
+                </div>
+
+                <div class="col-12 contact-header contact-body d-flex p-0 m-0  mt-1">
+
+
+                    <div class="col-sm-12 contacts text-left">
+
+                        <label class="m-0 p-0 mt-2"><strong>Online</strong></label>
+
+                        <div class="col-12 d-flex mt-3 nickname-avatar">
+                            <img src="images/useronline.png" />
+
+
+                            <span class="align-middle ml-1 text-muted">Juan Perez<em>(Online)</em></span>
+
+                        </div>
+
+
+
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-sm-12 chat">
+
+
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+
+    <script src="socket.io/socket.io.js"></script>
+    <script src="js/chat.js"></script>
+</body>
+
+</html>

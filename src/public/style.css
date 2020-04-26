@@ -1,0 +1,168 @@
+body {
+	background-image: url("images/background.jpg");
+}
+
+.login-container {
+	position: relative;
+	box-sizing: border-box;
+	width: 320px;
+	height: 80vh;
+
+	background: rgb(248, 249, 253);
+	background: linear-gradient(
+		0deg,
+		rgba(248, 249, 253, 1) 0%,
+		rgba(212, 225, 242, 1) 50%,
+		rgba(248, 249, 253, 1) 100%
+	);
+	border-radius: 5px;
+	border: 8px solid #bfcfe5;
+	border-top: 40px solid #bfcfe5;
+	-webkit-box-shadow: 7px 10px 5px -4px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 7px 10px 5px -4px rgba(0, 0, 0, 0.75);
+	box-shadow: 7px 10px 5px -4px rgba(0, 0, 0, 0.75);
+}
+
+.window-name {
+	display: flex;
+	position: absolute;
+	top: -30px;
+	left: -8px;
+	text-align: center;
+	align-items: center;
+}
+
+.window-name img {
+	height: 20px;
+	width: 40px;
+}
+
+.window-name p {
+	margin: 0;
+}
+
+.avatar-container {
+	display: flex;
+	justify-content: center;
+	margin-top: 40px;
+}
+
+.avatar-container img {
+	background-color: #fff;
+	border: 2px solid #b9bec5;
+	border-radius: 12px;
+	height: 150px;
+	width: 150px;
+	padding: 10px;
+}
+
+.input-container {
+	margin-top: 40px;
+	text-align: center;
+}
+
+.label label {
+	color: #2528d6;
+}
+
+.input input {
+	width: 100%;
+}
+
+.login-buttom {
+	margin-top: 30px;
+}
+.login-buttom button {
+	color: #2528d6;
+	width: 60%;
+}
+
+.login-background {
+	height: 150px;
+	opacity: 0.1;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+
+.check {
+	vertical-align: middle;
+	margin-top: 10px;
+	color: #2528d6;
+}
+
+.gif-container {
+	display: flex;
+	justify-content: center;
+	margin-top: 40px;
+}
+
+.gif-container img {
+	height: 80px;
+	width: 80px;
+}
+
+/* ---------------------------- CHAT AND CONTACTS --------------------------- */
+
+.contact-container {
+	width: 100%;
+}
+
+.contact-header {
+	padding: 20px;
+	background: rgb(248, 249, 253);
+	background: linear-gradient(
+		0deg,
+		rgba(248, 249, 253, 1) 0%,
+		rgba(212, 225, 242, 1) 50%,
+		rgba(248, 249, 253, 1) 100%
+	);
+	border: 8px solid #bfcfe5;
+	border-radius: 10px;
+	-webkit-box-shadow: 7px 10px 5px -4px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 7px 10px 5px -4px rgba(0, 0, 0, 0.75);
+	box-shadow: 7px 10px 5px -4px rgba(0, 0, 0, 0.75);
+}
+
+.contact-body {
+	border: 4px solid #bfcfe5;
+	height: 50vh;
+}
+
+.avatar img {
+	padding: 0;
+	height: 90px;
+	border-radius: 12px;
+}
+
+.contacts {
+	width: 100%;
+	background-color: #fff;
+}
+
+.buttoms {
+	background-color: #eff3ff;
+}
+.buttoms button {
+	margin-top: 4px;
+	width: 100%;
+}
+
+.nickname-avatar {
+	align-items: center;
+}
+
+.nickname-avatar span {
+	font-size: 14px;
+}
+.nickname-avatar img {
+	height: 14px;
+}
+
+.user-data {
+	display: table;
+}
+
+.pepe {
+	align-items: center;
+}
